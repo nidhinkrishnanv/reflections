@@ -1,0 +1,4 @@
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+Always stage one logical change and commit when one logical change is done.
+Before adding the changes for another logical change.
