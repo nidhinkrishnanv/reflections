@@ -12,3 +12,8 @@ Q. How do the diagrams help you visualize the branch structure?
 
 Diagrams help in visualizing the sequenze of branches.
 We can know at which commit the branches split.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The new branch will have the features and changes of both branches.
+We combine muliple branches to one, so we represent it in the same way in diagram.
