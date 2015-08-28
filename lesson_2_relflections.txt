@@ -17,3 +17,13 @@ Q. What is the result of merging two branches together? Why do we represent it i
 
 The new branch will have the features and changes of both branches.
 We combine muliple branches to one, so we represent it in the same way in diagram.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros : 
+1. Automatically takes code commited by someone else, which is not related to my work.
+2. Takes simple changes which might be a hasle if we want to commit ourselfs.
+
+Cons:
+1. Manually merging gives more clarity about the program as whole.
+2. Automatic merging might sometime give unintended results, if used all the time.
