@@ -25,3 +25,12 @@ Q. What is the benefit of having a copy of the last known state of the remote st
  
  We can compare the changes in the remote copy with our local copy to know the
  changes made by other users.
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ We would split the project into multiple modules and let check person do his module
+ and finally copy all to one location and manually merge.
+ We will have to add more planning, like all the APIs and interface should already 
+ be decided before coding.
+ It will be hard to change the APIs and interface and other project related changes.
+ It will be hard to merge all the changes in the end.
