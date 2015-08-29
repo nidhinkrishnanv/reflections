@@ -34,3 +34,27 @@ Q. How would you collaborate without using Git or GitHub? What would be easier, 
  be decided before coding.
  It will be hard to change the APIs and interface and other project related changes.
  It will be hard to merge all the changes in the end.
+
+Q. When would you want to make changes in a separate branch rather than directly in master? 
+   What benefits does each approach have?
+
+ When collabrating its better to review your changes with someone else to remove any bugs.
+ We can keep the our copy of master up-to-date with that of orginal.
+
+
+
+ Notes:
+
+ upstream : Original repository
+ origin   : fork of original repository(fork of upstream)
+ =>To resolve conflicts with original repository
+  git remote add upstream "url"
+  git checkout master
+  git pull upstream master
+  git checkout "your branch"
+  git merge master "your branch"
+  git add "file"
+  git commit
+  git push origin "your branch"
+  git checkout master
+  git push origin master
